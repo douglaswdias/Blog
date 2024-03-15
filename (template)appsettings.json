@@ -3,15 +3,15 @@
   "ConnectionStrings": {
     "DefaultConnection": "server=localhost\\sqlexpress;database=Blog;trusted_connection=True;TrustServerCertificate=True"
   },
-  "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=douglasblogstorage;AccountKey=BkpLfmZzTTr9WyiensboFU5e/TNSgBkC8anm8Mu/rJjaQntKdVmDdWOMp4Lt3ZOwsLNVZ8dz09L9+AStECzw9A==;EndpointSuffix=core.windows.net",
-  "JwtKey": "ZmVkYWY3ZDg4NjNiNDhlMTk3YjkyODdkNDkyYjcwOGU=",
+  "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=blogstorage;AccountKey=lMNLfmZzTTr9WyiensboFU5e/RSPgBkC8anm8Mu/rJjaQntKdVmDdWOMp4Lt3ZOwsLNVZ8dz10L8+AStECzw9A==;EndpointSuffix=core.windows.net",
+  "JwtKey": "SmVkYWY3ZDg4NjNiNDhlMTk3YjkyODdkNDkyYjcwOGV=",
   "ApiKeyName": "api_key",
   "ApiKey": "curso_api_IlTevUM/z0ey3NwCV/unWg==",
   "SmtpConfiguration": {
     "Host": "smtp.gmail.com",
     "Port": "587",
-    "UserName": "douglas.devdias@gmail.com",
-    "Password": "mzlq wvyy idqo itil"
+    "UserName": "email@gmail.com",
+    "Password": "alzf wvyy idqo fnls"
   },
   "Logging": {
     "LogLevel": {
