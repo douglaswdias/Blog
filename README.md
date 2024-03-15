@@ -1,4 +1,4 @@
-# Curso **2812 - Fundamentos do Azure, Git, Github e DevOps
+# Curso Fundamentos do Azure, Git, Github e DevOps - balta.io
 Aprenda a versionar e publicar pacotes e aplicações no Azure de forma totalmente automatizada utilizando o GitHub como plataforma.
 
 ## Comandos do Azure
@@ -24,4 +24,18 @@ az sql server firewall-rule list --server blogbalta2012sqlserver --resource-grou
 #### Adiciona um IP no SQL Server
 ```
 az sql server firewall-rule create --resource-group blog --server blogbalta2012sqlserver --name ghactions --start-ip-address 1.2.3.4 --end-ip-address 5.6.7.8
+```
+
+
+### To run locally
+##### Copy the (tamplate)appsettings.json. Create an appsettings.json file, paste the tamplate and change de variables:
+```c#
+DefaultConnection:
+StorageConnectionString:
+SmtpConfiguration": {
+  "Host": "smtp.gmail.com",
+  "Port": "587",
+  "UserName": "Your E-mail",
+  "Password": "Your password"
+}
 ```
