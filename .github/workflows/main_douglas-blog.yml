@@ -35,7 +35,7 @@ jobs:
         uses: haythem/public-ip@v1.3
 
       - name: Add IP to SQL Server
-        run: az sql server firewall-rule create --resource-group blog --server azure-blog-tes --name ghactions --start-ip-address ${{ steps.ip.outputs.ipv4 }} --end-ip-address ${{ steps.ip.outputs.ipv4 }}
+        run: az sql server firewall-rule create --resource-group blog --server azure-blog-test --name ghactions --start-ip-address ${{ steps.ip.outputs.ipv4 }} --end-ip-address ${{ steps.ip.outputs.ipv4 }}
 
       - name: Install EF Tools
         run: dotnet tool install --global dotnet-ef
